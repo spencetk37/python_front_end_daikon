@@ -1,0 +1,1944 @@
+(dp0
+S'pop()'
+p1
+(lp2
+(lp3
+(dp4
+S'stack'
+p5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p6
+sa(lp7
+(dp8
+S'exit_0'
+p9
+S'true'
+p10
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p11
+sa(dp12
+S'EXIT'
+p13
+I0
+saaa(lp14
+(dp15
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p16
+sa(lp17
+(dp18
+g9
+S'true'
+p19
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p20
+sa(dp21
+g13
+I0
+saaa(lp22
+(dp23
+g5
+S'[0 0 1 2 3 4 5 6]'
+p24
+sa(lp25
+(dp26
+g9
+S'true'
+p27
+sg5
+S'[0 0 1 2 3 4 5]'
+p28
+sa(dp29
+g13
+I0
+saaa(lp30
+(dp31
+g5
+S'[0 0 1 2 3 4 5]'
+p32
+sa(lp33
+(dp34
+g9
+S'true'
+p35
+sg5
+S'[0 0 1 2 3 4]'
+p36
+sa(dp37
+g13
+I0
+saaa(lp38
+(dp39
+g5
+S'[0 0 1 2 3 4]'
+p40
+sa(lp41
+(dp42
+g9
+S'true'
+p43
+sg5
+S'[0 0 1 2 3]'
+p44
+sa(dp45
+g13
+I0
+saaa(lp46
+(dp47
+g5
+S'[0 0 1 2 3]'
+p48
+sa(lp49
+(dp50
+g9
+S'true'
+p51
+sg5
+S'[0 0 1 2]'
+p52
+sa(dp53
+g13
+I0
+saaa(lp54
+(dp55
+g5
+S'[0 0 1 2]'
+p56
+sa(lp57
+(dp58
+g9
+S'true'
+p59
+sg5
+S'[0 0 1]'
+p60
+sa(dp61
+g13
+I0
+saaa(lp62
+(dp63
+g5
+S'[0 0 1]'
+p64
+sa(lp65
+(dp66
+g9
+S'true'
+p67
+sg5
+S'[0 0]'
+p68
+sa(dp69
+g13
+I0
+saaa(lp70
+(dp71
+g5
+S'[0 0]'
+p72
+sa(lp73
+(dp74
+g9
+S'true'
+p75
+sg5
+S'[0]'
+p76
+sa(dp77
+g13
+I0
+saaasS'size()'
+p78
+(lp79
+(lp80
+(dp81
+g5
+S'[0]'
+p82
+sa(lp83
+(dp84
+g9
+I1
+sg5
+S'[0]'
+p85
+sa(dp86
+g13
+I0
+saaa(lp87
+(dp88
+g5
+S'[0]'
+p89
+sa(lp90
+(dp91
+g9
+I1
+sg5
+S'[0]'
+p92
+sa(dp93
+g13
+I0
+saaa(lp94
+(dp95
+g5
+S'[0 0]'
+p96
+sa(lp97
+(dp98
+g9
+I2
+sg5
+S'[0 0]'
+p99
+sa(dp100
+g13
+I0
+saaa(lp101
+(dp102
+g5
+S'[0 0 1]'
+p103
+sa(lp104
+(dp105
+g9
+I3
+sg5
+S'[0 0 1]'
+p106
+sa(dp107
+g13
+I0
+saaa(lp108
+(dp109
+g5
+S'[0 0 1 2]'
+p110
+sa(lp111
+(dp112
+g9
+I4
+sg5
+S'[0 0 1 2]'
+p113
+sa(dp114
+g13
+I0
+saaa(lp115
+(dp116
+g5
+S'[0 0 1 2 3]'
+p117
+sa(lp118
+(dp119
+g9
+I5
+sg5
+S'[0 0 1 2 3]'
+p120
+sa(dp121
+g13
+I0
+saaa(lp122
+(dp123
+g5
+S'[0 0 1 2 3 4]'
+p124
+sa(lp125
+(dp126
+g9
+I6
+sg5
+S'[0 0 1 2 3 4]'
+p127
+sa(dp128
+g13
+I0
+saaa(lp129
+(dp130
+g5
+S'[0 0 1 2 3 4 5]'
+p131
+sa(lp132
+(dp133
+g9
+I7
+sg5
+S'[0 0 1 2 3 4 5]'
+p134
+sa(dp135
+g13
+I0
+saaa(lp136
+(dp137
+g5
+S'[0 0 1 2 3 4 5 6]'
+p138
+sa(lp139
+(dp140
+g9
+I8
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p141
+sa(dp142
+g13
+I0
+saaa(lp143
+(dp144
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p145
+sa(lp146
+(dp147
+g9
+I9
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p148
+sa(dp149
+g13
+I0
+saaa(lp150
+(dp151
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p152
+sa(lp153
+(dp154
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p155
+sa(dp156
+g13
+I0
+saaa(lp157
+(dp158
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p159
+sa(lp160
+(dp161
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p162
+sa(dp163
+g13
+I0
+saaa(lp164
+(dp165
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p166
+sa(lp167
+(dp168
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p169
+sa(dp170
+g13
+I0
+saaa(lp171
+(dp172
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p173
+sa(lp174
+(dp175
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p176
+sa(dp177
+g13
+I0
+saaa(lp178
+(dp179
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p180
+sa(lp181
+(dp182
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p183
+sa(dp184
+g13
+I0
+saaa(lp185
+(dp186
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p187
+sa(lp188
+(dp189
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p190
+sa(dp191
+g13
+I0
+saaa(lp192
+(dp193
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p194
+sa(lp195
+(dp196
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p197
+sa(dp198
+g13
+I0
+saaa(lp199
+(dp200
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p201
+sa(lp202
+(dp203
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p204
+sa(dp205
+g13
+I0
+saaa(lp206
+(dp207
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p208
+sa(lp209
+(dp210
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p211
+sa(dp212
+g13
+I0
+saaa(lp213
+(dp214
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p215
+sa(lp216
+(dp217
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p218
+sa(dp219
+g13
+I0
+saaa(lp220
+(dp221
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p222
+sa(lp223
+(dp224
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p225
+sa(dp226
+g13
+I0
+saaa(lp227
+(dp228
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p229
+sa(lp230
+(dp231
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p232
+sa(dp233
+g13
+I0
+saaa(lp234
+(dp235
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p236
+sa(lp237
+(dp238
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p239
+sa(dp240
+g13
+I0
+saaa(lp241
+(dp242
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p243
+sa(lp244
+(dp245
+g9
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p246
+sa(dp247
+g13
+I0
+saaa(lp248
+(dp249
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p250
+sa(lp251
+(dp252
+g9
+I9
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p253
+sa(dp254
+g13
+I0
+saaa(lp255
+(dp256
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p257
+sa(lp258
+(dp259
+g9
+I9
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p260
+sa(dp261
+g13
+I0
+saaa(lp262
+(dp263
+g5
+S'[0 0 1 2 3 4 5 6]'
+p264
+sa(lp265
+(dp266
+g9
+I8
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p267
+sa(dp268
+g13
+I0
+saaa(lp269
+(dp270
+g5
+S'[0 0 1 2 3 4 5 6]'
+p271
+sa(lp272
+(dp273
+g9
+I8
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p274
+sa(dp275
+g13
+I0
+saaa(lp276
+(dp277
+g5
+S'[0 0 1 2 3 4 5]'
+p278
+sa(lp279
+(dp280
+g9
+I7
+sg5
+S'[0 0 1 2 3 4 5]'
+p281
+sa(dp282
+g13
+I0
+saaa(lp283
+(dp284
+g5
+S'[0 0 1 2 3 4 5]'
+p285
+sa(lp286
+(dp287
+g9
+I7
+sg5
+S'[0 0 1 2 3 4 5]'
+p288
+sa(dp289
+g13
+I0
+saaa(lp290
+(dp291
+g5
+S'[0 0 1 2 3 4]'
+p292
+sa(lp293
+(dp294
+g9
+I6
+sg5
+S'[0 0 1 2 3 4]'
+p295
+sa(dp296
+g13
+I0
+saaa(lp297
+(dp298
+g5
+S'[0 0 1 2 3 4]'
+p299
+sa(lp300
+(dp301
+g9
+I6
+sg5
+S'[0 0 1 2 3 4]'
+p302
+sa(dp303
+g13
+I0
+saaa(lp304
+(dp305
+g5
+S'[0 0 1 2 3]'
+p306
+sa(lp307
+(dp308
+g9
+I5
+sg5
+S'[0 0 1 2 3]'
+p309
+sa(dp310
+g13
+I0
+saaa(lp311
+(dp312
+g5
+S'[0 0 1 2 3]'
+p313
+sa(lp314
+(dp315
+g9
+I5
+sg5
+S'[0 0 1 2 3]'
+p316
+sa(dp317
+g13
+I0
+saaa(lp318
+(dp319
+g5
+S'[0 0 1 2]'
+p320
+sa(lp321
+(dp322
+g9
+I4
+sg5
+S'[0 0 1 2]'
+p323
+sa(dp324
+g13
+I0
+saaa(lp325
+(dp326
+g5
+S'[0 0 1 2]'
+p327
+sa(lp328
+(dp329
+g9
+I4
+sg5
+S'[0 0 1 2]'
+p330
+sa(dp331
+g13
+I0
+saaa(lp332
+(dp333
+g5
+S'[0 0 1]'
+p334
+sa(lp335
+(dp336
+g9
+I3
+sg5
+S'[0 0 1]'
+p337
+sa(dp338
+g13
+I0
+saaa(lp339
+(dp340
+g5
+S'[0 0 1]'
+p341
+sa(lp342
+(dp343
+g9
+I3
+sg5
+S'[0 0 1]'
+p344
+sa(dp345
+g13
+I0
+saaa(lp346
+(dp347
+g5
+S'[0 0]'
+p348
+sa(lp349
+(dp350
+g9
+I2
+sg5
+S'[0 0]'
+p351
+sa(dp352
+g13
+I0
+saaa(lp353
+(dp354
+g5
+S'[0 0]'
+p355
+sa(lp356
+(dp357
+g9
+I2
+sg5
+S'[0 0]'
+p358
+sa(dp359
+g13
+I0
+saaasS'isEmpty()'
+p360
+(lp361
+(lp362
+(dp363
+g5
+S'[0]'
+p364
+sa(lp365
+(dp366
+g9
+S'false'
+p367
+sg5
+S'[0]'
+p368
+sa(dp369
+g13
+I0
+saaa(lp370
+(dp371
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p372
+sa(lp373
+(dp374
+g9
+S'false'
+p375
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p376
+sa(dp377
+g13
+I0
+saaa(lp378
+(dp379
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p380
+sa(lp381
+(dp382
+g9
+S'false'
+p383
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p384
+sa(dp385
+g13
+I0
+saaa(lp386
+(dp387
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p388
+sa(lp389
+(dp390
+g9
+S'false'
+p391
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p392
+sa(dp393
+g13
+I0
+saaa(lp394
+(dp395
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p396
+sa(lp397
+(dp398
+g9
+S'false'
+p399
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p400
+sa(dp401
+g13
+I0
+saaa(lp402
+(dp403
+g5
+S'[0 0 1 2 3 4 5 6]'
+p404
+sa(lp405
+(dp406
+g9
+S'false'
+p407
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p408
+sa(dp409
+g13
+I0
+saaa(lp410
+(dp411
+g5
+S'[0 0 1 2 3 4 5 6]'
+p412
+sa(lp413
+(dp414
+g9
+S'false'
+p415
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p416
+sa(dp417
+g13
+I0
+saaa(lp418
+(dp419
+g5
+S'[0 0 1 2 3 4 5]'
+p420
+sa(lp421
+(dp422
+g9
+S'false'
+p423
+sg5
+S'[0 0 1 2 3 4 5]'
+p424
+sa(dp425
+g13
+I0
+saaa(lp426
+(dp427
+g5
+S'[0 0 1 2 3 4 5]'
+p428
+sa(lp429
+(dp430
+g9
+S'false'
+p431
+sg5
+S'[0 0 1 2 3 4 5]'
+p432
+sa(dp433
+g13
+I0
+saaa(lp434
+(dp435
+g5
+S'[0 0 1 2 3 4]'
+p436
+sa(lp437
+(dp438
+g9
+S'false'
+p439
+sg5
+S'[0 0 1 2 3 4]'
+p440
+sa(dp441
+g13
+I0
+saaa(lp442
+(dp443
+g5
+S'[0 0 1 2 3 4]'
+p444
+sa(lp445
+(dp446
+g9
+S'false'
+p447
+sg5
+S'[0 0 1 2 3 4]'
+p448
+sa(dp449
+g13
+I0
+saaa(lp450
+(dp451
+g5
+S'[0 0 1 2 3]'
+p452
+sa(lp453
+(dp454
+g9
+S'false'
+p455
+sg5
+S'[0 0 1 2 3]'
+p456
+sa(dp457
+g13
+I0
+saaa(lp458
+(dp459
+g5
+S'[0 0 1 2 3]'
+p460
+sa(lp461
+(dp462
+g9
+S'false'
+p463
+sg5
+S'[0 0 1 2 3]'
+p464
+sa(dp465
+g13
+I0
+saaa(lp466
+(dp467
+g5
+S'[0 0 1 2]'
+p468
+sa(lp469
+(dp470
+g9
+S'false'
+p471
+sg5
+S'[0 0 1 2]'
+p472
+sa(dp473
+g13
+I0
+saaa(lp474
+(dp475
+g5
+S'[0 0 1 2]'
+p476
+sa(lp477
+(dp478
+g9
+S'false'
+p479
+sg5
+S'[0 0 1 2]'
+p480
+sa(dp481
+g13
+I0
+saaa(lp482
+(dp483
+g5
+S'[0 0 1]'
+p484
+sa(lp485
+(dp486
+g9
+S'false'
+p487
+sg5
+S'[0 0 1]'
+p488
+sa(dp489
+g13
+I0
+saaa(lp490
+(dp491
+g5
+S'[0 0 1]'
+p492
+sa(lp493
+(dp494
+g9
+S'false'
+p495
+sg5
+S'[0 0 1]'
+p496
+sa(dp497
+g13
+I0
+saaa(lp498
+(dp499
+g5
+S'[0 0]'
+p500
+sa(lp501
+(dp502
+g9
+S'false'
+p503
+sg5
+S'[0 0]'
+p504
+sa(dp505
+g13
+I0
+saaa(lp506
+(dp507
+g5
+S'[0 0]'
+p508
+sa(lp509
+(dp510
+g9
+S'false'
+p511
+sg5
+S'[0 0]'
+p512
+sa(dp513
+g13
+I0
+saaasS'isCap()'
+p514
+(lp515
+(lp516
+(dp517
+g5
+S'[0]'
+p518
+sa(lp519
+(dp520
+g9
+S'false'
+p521
+sg5
+S'[0]'
+p522
+sa(dp523
+g13
+I0
+saaa(lp524
+(dp525
+g5
+S'[0 0]'
+p526
+sa(lp527
+(dp528
+g9
+S'false'
+p529
+sg5
+S'[0 0]'
+p530
+sa(dp531
+g13
+I0
+saaa(lp532
+(dp533
+g5
+S'[0 0 1]'
+p534
+sa(lp535
+(dp536
+g9
+S'false'
+p537
+sg5
+S'[0 0 1]'
+p538
+sa(dp539
+g13
+I0
+saaa(lp540
+(dp541
+g5
+S'[0 0 1 2]'
+p542
+sa(lp543
+(dp544
+g9
+S'false'
+p545
+sg5
+S'[0 0 1 2]'
+p546
+sa(dp547
+g13
+I0
+saaa(lp548
+(dp549
+g5
+S'[0 0 1 2 3]'
+p550
+sa(lp551
+(dp552
+g9
+S'false'
+p553
+sg5
+S'[0 0 1 2 3]'
+p554
+sa(dp555
+g13
+I0
+saaa(lp556
+(dp557
+g5
+S'[0 0 1 2 3 4]'
+p558
+sa(lp559
+(dp560
+g9
+S'false'
+p561
+sg5
+S'[0 0 1 2 3 4]'
+p562
+sa(dp563
+g13
+I0
+saaa(lp564
+(dp565
+g5
+S'[0 0 1 2 3 4 5]'
+p566
+sa(lp567
+(dp568
+g9
+S'false'
+p569
+sg5
+S'[0 0 1 2 3 4 5]'
+p570
+sa(dp571
+g13
+I0
+saaa(lp572
+(dp573
+g5
+S'[0 0 1 2 3 4 5 6]'
+p574
+sa(lp575
+(dp576
+g9
+S'false'
+p577
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p578
+sa(dp579
+g13
+I0
+saaa(lp580
+(dp581
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p582
+sa(lp583
+(dp584
+g9
+S'false'
+p585
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p586
+sa(dp587
+g13
+I0
+saaa(lp588
+(dp589
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p590
+sa(lp591
+(dp592
+g9
+S'true'
+p593
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p594
+sa(dp595
+g13
+I0
+saaa(lp596
+(dp597
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p598
+sa(lp599
+(dp600
+g9
+S'true'
+p601
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p602
+sa(dp603
+g13
+I0
+saaa(lp604
+(dp605
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p606
+sa(lp607
+(dp608
+g9
+S'true'
+p609
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p610
+sa(dp611
+g13
+I0
+saaa(lp612
+(dp613
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p614
+sa(lp615
+(dp616
+g9
+S'true'
+p617
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p618
+sa(dp619
+g13
+I0
+saaa(lp620
+(dp621
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p622
+sa(lp623
+(dp624
+g9
+S'true'
+p625
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p626
+sa(dp627
+g13
+I0
+saaa(lp628
+(dp629
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p630
+sa(lp631
+(dp632
+g9
+S'true'
+p633
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p634
+sa(dp635
+g13
+I0
+saaa(lp636
+(dp637
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p638
+sa(lp639
+(dp640
+g9
+S'true'
+p641
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p642
+sa(dp643
+g13
+I0
+saaa(lp644
+(dp645
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p646
+sa(lp647
+(dp648
+g9
+S'true'
+p649
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p650
+sa(dp651
+g13
+I0
+saaa(lp652
+(dp653
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p654
+sa(lp655
+(dp656
+g9
+S'true'
+p657
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p658
+sa(dp659
+g13
+I0
+saaa(lp660
+(dp661
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p662
+sa(lp663
+(dp664
+g9
+S'true'
+p665
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p666
+sa(dp667
+g13
+I0
+saaa(lp668
+(dp669
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p670
+sa(lp671
+(dp672
+g9
+S'true'
+p673
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p674
+sa(dp675
+g13
+I0
+saaa(lp676
+(dp677
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p678
+sa(lp679
+(dp680
+g9
+S'true'
+p681
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p682
+sa(dp683
+g13
+I0
+saaasS'peek()'
+p684
+(lp685
+(lp686
+(dp687
+g5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p688
+sa(lp689
+(dp690
+g9
+I0
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p691
+sa(dp692
+g13
+I0
+saaa(lp693
+(dp694
+g5
+S'[0 0 1 2 3 4 5 6 7]'
+p695
+sa(lp696
+(dp697
+g9
+I0
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p698
+sa(dp699
+g13
+I0
+saaa(lp700
+(dp701
+g5
+S'[0 0 1 2 3 4 5 6]'
+p702
+sa(lp703
+(dp704
+g9
+I0
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p705
+sa(dp706
+g13
+I0
+saaa(lp707
+(dp708
+g5
+S'[0 0 1 2 3 4 5]'
+p709
+sa(lp710
+(dp711
+g9
+I0
+sg5
+S'[0 0 1 2 3 4 5]'
+p712
+sa(dp713
+g13
+I0
+saaa(lp714
+(dp715
+g5
+S'[0 0 1 2 3 4]'
+p716
+sa(lp717
+(dp718
+g9
+I0
+sg5
+S'[0 0 1 2 3 4]'
+p719
+sa(dp720
+g13
+I0
+saaa(lp721
+(dp722
+g5
+S'[0 0 1 2 3]'
+p723
+sa(lp724
+(dp725
+g9
+I0
+sg5
+S'[0 0 1 2 3]'
+p726
+sa(dp727
+g13
+I0
+saaa(lp728
+(dp729
+g5
+S'[0 0 1 2]'
+p730
+sa(lp731
+(dp732
+g9
+I0
+sg5
+S'[0 0 1 2]'
+p733
+sa(dp734
+g13
+I0
+saaa(lp735
+(dp736
+g5
+S'[0 0 1]'
+p737
+sa(lp738
+(dp739
+g9
+I0
+sg5
+S'[0 0 1]'
+p740
+sa(dp741
+g13
+I0
+saaa(lp742
+(dp743
+g5
+S'[0 0]'
+p744
+sa(lp745
+(dp746
+g9
+I0
+sg5
+S'[0 0]'
+p747
+sa(dp748
+g13
+I0
+saaasS'push()'
+p749
+(lp750
+(lp751
+(dp752
+S'item'
+p753
+I0
+sg5
+S'[0]'
+p754
+sa(lp755
+(dp756
+g753
+I0
+sg9
+S'true'
+p757
+sg5
+S'[0 0]'
+p758
+sa(dp759
+g13
+I0
+saaa(lp760
+(dp761
+g753
+I1
+sg5
+S'[0 0]'
+p762
+sa(lp763
+(dp764
+g753
+I1
+sg9
+S'true'
+p765
+sg5
+S'[0 0 1]'
+p766
+sa(dp767
+g13
+I0
+saaa(lp768
+(dp769
+g753
+I2
+sg5
+S'[0 0 1]'
+p770
+sa(lp771
+(dp772
+g753
+I2
+sg9
+S'true'
+p773
+sg5
+S'[0 0 1 2]'
+p774
+sa(dp775
+g13
+I0
+saaa(lp776
+(dp777
+g753
+I3
+sg5
+S'[0 0 1 2]'
+p778
+sa(lp779
+(dp780
+g753
+I3
+sg9
+S'true'
+p781
+sg5
+S'[0 0 1 2 3]'
+p782
+sa(dp783
+g13
+I0
+saaa(lp784
+(dp785
+g753
+I4
+sg5
+S'[0 0 1 2 3]'
+p786
+sa(lp787
+(dp788
+g753
+I4
+sg9
+S'true'
+p789
+sg5
+S'[0 0 1 2 3 4]'
+p790
+sa(dp791
+g13
+I0
+saaa(lp792
+(dp793
+g753
+I5
+sg5
+S'[0 0 1 2 3 4]'
+p794
+sa(lp795
+(dp796
+g753
+I5
+sg9
+S'true'
+p797
+sg5
+S'[0 0 1 2 3 4 5]'
+p798
+sa(dp799
+g13
+I0
+saaa(lp800
+(dp801
+g753
+I6
+sg5
+S'[0 0 1 2 3 4 5]'
+p802
+sa(lp803
+(dp804
+g753
+I6
+sg9
+S'true'
+p805
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p806
+sa(dp807
+g13
+I0
+saaa(lp808
+(dp809
+g753
+I7
+sg5
+S'[0 0 1 2 3 4 5 6]'
+p810
+sa(lp811
+(dp812
+g753
+I7
+sg9
+S'true'
+p813
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p814
+sa(dp815
+g13
+I0
+saaa(lp816
+(dp817
+g753
+I8
+sg5
+S'[0 0 1 2 3 4 5 6 7]'
+p818
+sa(lp819
+(dp820
+g753
+I8
+sg9
+S'true'
+p821
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p822
+sa(dp823
+g13
+I0
+saaa(lp824
+(dp825
+g753
+I9
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p826
+sa(lp827
+(dp828
+g753
+I9
+sS'exit_1'
+p829
+S'false'
+p830
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p831
+sa(dp832
+g13
+I1
+saaa(lp833
+(dp834
+g753
+I10
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p835
+sa(lp836
+(dp837
+g753
+I10
+sg829
+S'false'
+p838
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p839
+sa(dp840
+g13
+I1
+saaa(lp841
+(dp842
+g753
+I11
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p843
+sa(lp844
+(dp845
+g753
+I11
+sg829
+S'false'
+p846
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p847
+sa(dp848
+g13
+I1
+saaa(lp849
+(dp850
+g753
+I12
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p851
+sa(lp852
+(dp853
+g753
+I12
+sg829
+S'false'
+p854
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p855
+sa(dp856
+g13
+I1
+saaa(lp857
+(dp858
+g753
+I13
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p859
+sa(lp860
+(dp861
+g753
+I13
+sg829
+S'false'
+p862
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p863
+sa(dp864
+g13
+I1
+saaa(lp865
+(dp866
+g753
+I14
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p867
+sa(lp868
+(dp869
+g753
+I14
+sg829
+S'false'
+p870
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p871
+sa(dp872
+g13
+I1
+saaa(lp873
+(dp874
+g753
+I15
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p875
+sa(lp876
+(dp877
+g753
+I15
+sg829
+S'false'
+p878
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p879
+sa(dp880
+g13
+I1
+saaa(lp881
+(dp882
+g753
+I16
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p883
+sa(lp884
+(dp885
+g753
+I16
+sg829
+S'false'
+p886
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p887
+sa(dp888
+g13
+I1
+saaa(lp889
+(dp890
+g753
+I17
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p891
+sa(lp892
+(dp893
+g753
+I17
+sg829
+S'false'
+p894
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p895
+sa(dp896
+g13
+I1
+saaa(lp897
+(dp898
+g753
+I18
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p899
+sa(lp900
+(dp901
+g753
+I18
+sg829
+S'false'
+p902
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p903
+sa(dp904
+g13
+I1
+saaa(lp905
+(dp906
+g753
+I19
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p907
+sa(lp908
+(dp909
+g753
+I19
+sg829
+S'false'
+p910
+sg5
+S'[0 0 1 2 3 4 5 6 7 8]'
+p911
+sa(dp912
+g13
+I1
+saaas.
