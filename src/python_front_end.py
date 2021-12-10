@@ -211,16 +211,17 @@ def second_run(target_file):
 
         decls.write("DECLARE\n")
         decls.write("a."+tuple[0] + "\n")
-        for item in tuple[1]:
-            if ((type_data[tuple[0]][item])[-2:] == "[]"):
-                decls.write(""+item+"[]\n")
-                decls.write(type_data[tuple[0]][item] + "\n")
-                decls.write(type_data[tuple[0]][item] + "\n")
+        od = collections.OrderedDict(sorted(tuple[1].items()))
+        for item in od.items():
+            if ((type_data[tuple[0]][item[0]])[-2:] == "[]"):
+                decls.write(""+item[0]+"[]\n")
+                decls.write(type_data[tuple[0]][item[0]] + "\n")
+                decls.write(type_data[tuple[0]][item[0]] + "\n")
                 decls.write("1[1]\n")
             else:
-                decls.write(""+item+"\n")
-                decls.write(type_data[tuple[0]][item] + "\n")
-                decls.write(type_data[tuple[0]][item] + "\n")
+                decls.write(""+item[0]+"\n")
+                decls.write(type_data[tuple[0]][item[0]] + "\n")
+                decls.write(type_data[tuple[0]][item[0]] + "\n")
                 decls.write("1\n")
     decls.write("\n")
     decls.close()
@@ -270,26 +271,30 @@ def second_run(target_file):
     for point in val_db:
         for value_dict in val_db[point]:
             dtrace.write("a."+point+":::ENTER\n")
-            for value_key in value_dict[0]:
-                if ((type_data[point+":::ENTER"][value_key])[-2:] == "[]"):
-                    dtrace.write(""+value_key+"[]\n")
-                    dtrace.write(str(value_dict[0][value_key]) + "\n")
+            od = collections.OrderedDict(sorted(value_dict[0].items()))
+            for value_key in od.items():
+                print(value_key[0])
+                if ((type_data[point+":::ENTER"][value_key[0]])[-2:] == "[]"):
+                    dtrace.write(""+value_key[0]+"[]\n")
+                    dtrace.write(str(value_dict[0][value_key[0]]) + "\n")
                     dtrace.write("1\n")
-                else:                 
-                    dtrace.write(""+value_key+"\n")
-                    dtrace.write(str(value_dict[0][value_key]) + "\n")
+                else:
+                    dtrace.write(""+value_key[0]+"\n")
+                    dtrace.write(str(value_dict[0][value_key[0]]) + "\n")
                     dtrace.write("1\n")
             dtrace.write("\n")
             dtrace.write("a."+point+":::EXIT"+str(value_dict[1][1].get("EXIT"))+"\n")
             id = value_dict[1][1].get("EXIT")
-            for value_key in value_dict[1][0]:
-                if ((type_data[point+":::EXIT"+str(id)][value_key])[-2:] == "[]"):
-                    dtrace.write(""+value_key+"[]\n")
-                    dtrace.write(str(value_dict[1][0][value_key]) + "\n")
+            od = collections.OrderedDict(sorted(value_dict[1][0].items()))
+            for value_key in od.items():
+                print(value_key[0])
+                if ((type_data[point+":::EXIT"+str(id)][value_key[0]])[-2:] == "[]"):
+                    dtrace.write(""+value_key[0]+"[]\n")
+                    dtrace.write(str(value_dict[1][0][value_key[0]]) + "\n")
                     dtrace.write("1\n")
-                else:                 
-                    dtrace.write(""+value_key+"\n")
-                    dtrace.write(str(value_dict[1][0][value_key]) + "\n")
+                else:
+                    dtrace.write(""+value_key[0]+"\n")
+                    dtrace.write(str(value_dict[1][0][value_key[0]]) + "\n")
                     dtrace.write("1\n")
             dtrace.write("\n")
     dtrace.write("\n")
