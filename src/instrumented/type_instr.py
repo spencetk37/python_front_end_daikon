@@ -26,111 +26,72 @@ def val_prep(val):
         val = '[' + ' '.join(map(str, val)) + ']'
     return val
 
-def push(stack, item):
-    if d.get('push():::ENTER') is None:
-        d['push():::ENTER'] = {}
-    d['push():::ENTER']['item'] = type_prep(item)
-    d['push():::ENTER']['stack'] = type_prep(stack)
-    if not isCap(stack):
-        stack.append(item)
-        if d.get('push():::EXIT0') is None:
-            d['push():::EXIT0'] = {}
-        d['push():::EXIT0']['stack'] = type_prep(stack)
-        d['push():::EXIT0']['item'] = type_prep(item)
-        exit_0 = True
-        d['push():::EXIT0']['exit_0'] = type_prep(exit_0)
-        return exit_0
-    elif 1:
-        print('It is full')
-        if d.get('push():::EXIT1') is None:
-            d['push():::EXIT1'] = {}
-        d['push():::EXIT1']['stack'] = type_prep(stack)
-        d['push():::EXIT1']['item'] = type_prep(item)
-        exit_1 = False
-        d['push():::EXIT1']['exit_1'] = type_prep(exit_1)
-        return exit_1
-
-def pop(stack):
-    if d.get('pop():::ENTER') is None:
-        d['pop():::ENTER'] = {}
-    d['pop():::ENTER']['stack'] = type_prep(stack)
-    if not isEmpty(stack):
-        stack.pop()
-        if d.get('pop():::EXIT0') is None:
-            d['pop():::EXIT0'] = {}
-        d['pop():::EXIT0']['stack'] = type_prep(stack)
-        exit_0 = True
-        d['pop():::EXIT0']['exit_0'] = type_prep(exit_0)
-        return exit_0
-    elif 1:
-        print('It is empty')
-        if d.get('pop():::EXIT1') is None:
-            d['pop():::EXIT1'] = {}
-        d['pop():::EXIT1']['stack'] = type_prep(stack)
-        exit_1 = False
-        d['pop():::EXIT1']['exit_1'] = type_prep(exit_1)
-        return exit_1
-
-def peek(stack):
-    if d.get('peek():::ENTER') is None:
-        d['peek():::ENTER'] = {}
-    d['peek():::ENTER']['stack'] = type_prep(stack)
-    if not isEmpty(stack):
-        if d.get('peek():::EXIT0') is None:
-            d['peek():::EXIT0'] = {}
-        d['peek():::EXIT0']['stack'] = type_prep(stack)
-        exit_0 = stack[0]
-        d['peek():::EXIT0']['exit_0'] = type_prep(exit_0)
-        return exit_0
-    elif 1:
-        if d.get('peek():::EXIT1') is None:
-            d['peek():::EXIT1'] = {}
-        d['peek():::EXIT1']['stack'] = type_prep(stack)
-        exit_1 = -1
-        d['peek():::EXIT1']['exit_1'] = type_prep(exit_1)
-        return exit_1
-
-def size(stack):
-    if d.get('size():::ENTER') is None:
-        d['size():::ENTER'] = {}
-    d['size():::ENTER']['stack'] = type_prep(stack)
-    if d.get('size():::EXIT0') is None:
-        d['size():::EXIT0'] = {}
-    d['size():::EXIT0']['stack'] = type_prep(stack)
-    exit_0 = len(stack)
-    d['size():::EXIT0']['exit_0'] = type_prep(exit_0)
+def add(a, b):
+    if d.get('add():::ENTER') is None:
+        d['add():::ENTER'] = {}
+    d['add():::ENTER']['b'] = type_prep(b)
+    d['add():::ENTER']['a'] = type_prep(a)
+    if d.get('add():::EXIT0') is None:
+        d['add():::EXIT0'] = {}
+    d['add():::EXIT0']['a'] = type_prep(a)
+    d['add():::EXIT0']['b'] = type_prep(b)
+    exit_0 = a + b
+    d['add():::EXIT0']['exit_0'] = type_prep(exit_0)
     return exit_0
 
-def isEmpty(stack):
-    if d.get('isEmpty():::ENTER') is None:
-        d['isEmpty():::ENTER'] = {}
-    d['isEmpty():::ENTER']['stack'] = type_prep(stack)
-    if d.get('isEmpty():::EXIT0') is None:
-        d['isEmpty():::EXIT0'] = {}
-    d['isEmpty():::EXIT0']['stack'] = type_prep(stack)
-    exit_0 = size(stack) == 0
-    d['isEmpty():::EXIT0']['exit_0'] = type_prep(exit_0)
+def subtract(num1, num2):
+    if d.get('subtract():::ENTER') is None:
+        d['subtract():::ENTER'] = {}
+    d['subtract():::ENTER']['num2'] = type_prep(num2)
+    d['subtract():::ENTER']['num1'] = type_prep(num1)
+    if d.get('subtract():::EXIT0') is None:
+        d['subtract():::EXIT0'] = {}
+    d['subtract():::EXIT0']['num1'] = type_prep(num1)
+    d['subtract():::EXIT0']['num2'] = type_prep(num2)
+    exit_0 = num1 - num2
+    d['subtract():::EXIT0']['exit_0'] = type_prep(exit_0)
     return exit_0
 
-def isCap(stack):
-    if d.get('isCap():::ENTER') is None:
-        d['isCap():::ENTER'] = {}
-    d['isCap():::ENTER']['stack'] = type_prep(stack)
-    if d.get('isCap():::EXIT0') is None:
-        d['isCap():::EXIT0'] = {}
-    d['isCap():::EXIT0']['stack'] = type_prep(stack)
-    exit_0 = size(stack) == 10
-    d['isCap():::EXIT0']['exit_0'] = type_prep(exit_0)
+def multiply(num1, num2):
+    if d.get('multiply():::ENTER') is None:
+        d['multiply():::ENTER'] = {}
+    d['multiply():::ENTER']['num2'] = type_prep(num2)
+    d['multiply():::ENTER']['num1'] = type_prep(num1)
+    if d.get('multiply():::EXIT0') is None:
+        d['multiply():::EXIT0'] = {}
+    d['multiply():::EXIT0']['num1'] = type_prep(num1)
+    d['multiply():::EXIT0']['num2'] = type_prep(num2)
+    exit_0 = num1 * num2
+    d['multiply():::EXIT0']['exit_0'] = type_prep(exit_0)
     return exit_0
+
+def divide(num1, num2):
+    if d.get('divide():::ENTER') is None:
+        d['divide():::ENTER'] = {}
+    d['divide():::ENTER']['num2'] = type_prep(num2)
+    d['divide():::ENTER']['num1'] = type_prep(num1)
+    if num2 == 0:
+        if d.get('divide():::EXIT0') is None:
+            d['divide():::EXIT0'] = {}
+        d['divide():::EXIT0']['num1'] = type_prep(num1)
+        d['divide():::EXIT0']['num2'] = type_prep(num2)
+        exit_0 = -1
+        d['divide():::EXIT0']['exit_0'] = type_prep(exit_0)
+        return exit_0
+    elif 1:
+        if d.get('divide():::EXIT1') is None:
+            d['divide():::EXIT1'] = {}
+        d['divide():::EXIT1']['num1'] = type_prep(num1)
+        d['divide():::EXIT1']['num2'] = type_prep(num2)
+        exit_1 = num1 / num2
+        d['divide():::EXIT1']['exit_1'] = type_prep(exit_1)
+        return exit_1
 if __name__ == '__main__':
-    my_stack = [0]
-    isEmpty(my_stack)
-    for i in range(0, 20):
-        push(my_stack, i)
-    isCap(my_stack)
-    for i in range(0, 9):
-        peek(my_stack)
-        pop(my_stack)
+    x = add(2, 3)
+    y = subtract(4, 3)
+    z = multiply(2, 3)
+    c = divide(3, 3)
+    b = divide(-1, 0)
     pickle_types = open('pickled_files/pickled_types', 'wb')
     pickle.dump(d, pickle_types)
     pickle_types.close()

@@ -1,0 +1,1655 @@
+a.isEmpty():::ENTER
+stack[]
+[0]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0]
+1
+
+a.isEmpty():::ENTER
+stack[]
+[0 0]
+1
+
+a.isEmpty():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0]
+1
+
+a.size():::ENTER
+stack[]
+[0]
+1
+
+a.size():::EXIT0
+exit_0
+1
+1
+stack[]
+[0]
+1
+
+a.size():::ENTER
+stack[]
+[0]
+1
+
+a.size():::EXIT0
+exit_0
+1
+1
+stack[]
+[0]
+1
+
+a.size():::ENTER
+stack[]
+[0 0]
+1
+
+a.size():::EXIT0
+exit_0
+2
+1
+stack[]
+[0 0]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.size():::EXIT0
+exit_0
+3
+1
+stack[]
+[0 0 1]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.size():::EXIT0
+exit_0
+4
+1
+stack[]
+[0 0 1 2]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.size():::EXIT0
+exit_0
+5
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.size():::EXIT0
+exit_0
+6
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.size():::EXIT0
+exit_0
+7
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.size():::EXIT0
+exit_0
+8
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.size():::EXIT0
+exit_0
+9
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::EXIT0
+exit_0
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.size():::EXIT0
+exit_0
+9
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.size():::EXIT0
+exit_0
+9
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.size():::EXIT0
+exit_0
+8
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.size():::EXIT0
+exit_0
+8
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.size():::EXIT0
+exit_0
+7
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.size():::EXIT0
+exit_0
+7
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.size():::EXIT0
+exit_0
+6
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.size():::EXIT0
+exit_0
+6
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.size():::EXIT0
+exit_0
+5
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.size():::EXIT0
+exit_0
+5
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.size():::EXIT0
+exit_0
+4
+1
+stack[]
+[0 0 1 2]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.size():::EXIT0
+exit_0
+4
+1
+stack[]
+[0 0 1 2]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.size():::EXIT0
+exit_0
+3
+1
+stack[]
+[0 0 1]
+1
+
+a.size():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.size():::EXIT0
+exit_0
+3
+1
+stack[]
+[0 0 1]
+1
+
+a.size():::ENTER
+stack[]
+[0 0]
+1
+
+a.size():::EXIT0
+exit_0
+2
+1
+stack[]
+[0 0]
+1
+
+a.size():::ENTER
+stack[]
+[0 0]
+1
+
+a.size():::EXIT0
+exit_0
+2
+1
+stack[]
+[0 0]
+1
+
+a.push():::ENTER
+item
+0
+1
+stack[]
+[0]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+0
+1
+stack[]
+[0 0]
+1
+
+a.push():::ENTER
+item
+1
+1
+stack[]
+[0 0]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+1
+1
+stack[]
+[0 0 1]
+1
+
+a.push():::ENTER
+item
+2
+1
+stack[]
+[0 0 1]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+2
+1
+stack[]
+[0 0 1 2]
+1
+
+a.push():::ENTER
+item
+3
+1
+stack[]
+[0 0 1 2]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+3
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.push():::ENTER
+item
+4
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+4
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.push():::ENTER
+item
+5
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+5
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.push():::ENTER
+item
+6
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+6
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.push():::ENTER
+item
+7
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+7
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.push():::ENTER
+item
+8
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.push():::EXIT0
+exit_0
+true
+1
+item
+8
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+9
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+9
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+10
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+11
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+11
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+12
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+12
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+13
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+13
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+14
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+14
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+15
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+15
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+16
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+16
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+17
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+17
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+18
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+18
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::ENTER
+item
+19
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.push():::EXIT1
+exit_1
+false
+1
+item
+19
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.isCap():::EXIT0
+exit_0
+false
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.isCap():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1 2]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0 1]
+1
+
+a.peek():::ENTER
+stack[]
+[0 0]
+1
+
+a.peek():::EXIT0
+exit_0
+0
+1
+stack[]
+[0 0]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7 8]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6 7]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2 3 4 5 6]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2 3 4 5]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2 3 4]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2 3]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2 3]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1 2]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1 2]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0 1]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0 1]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0 0]
+1
+
+a.pop():::ENTER
+stack[]
+[0 0]
+1
+
+a.pop():::EXIT0
+exit_0
+true
+1
+stack[]
+[0]
+1
+
+

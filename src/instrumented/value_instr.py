@@ -26,90 +26,53 @@ def val_prep(val):
         val = '[' + ' '.join(map(str, val)) + ']'
     return val
 
-def push(stack, item):
-    curr_entry = {'stack': val_prep(stack), 'item': val_prep(item)}
-    if v.get('push()') is None:
-        v['push()'] = []
-    if not isCap(stack):
-        stack.append(item)
-        exit_0 = True
-        curr_exit = [{'stack': val_prep(stack), 'item': val_prep(item), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
-        v['push()'].append([curr_entry, curr_exit])
-        return exit_0
-    elif 1:
-        print('It is full')
-        exit_1 = False
-        curr_exit = [{'stack': val_prep(stack), 'item': val_prep(item), 'exit_1': val_prep(exit_1)}, {'EXIT': 1}]
-        v['push()'].append([curr_entry, curr_exit])
-        return exit_1
-
-def pop(stack):
-    curr_entry = {'stack': val_prep(stack)}
-    if v.get('pop()') is None:
-        v['pop()'] = []
-    if not isEmpty(stack):
-        stack.pop()
-        exit_0 = True
-        curr_exit = [{'stack': val_prep(stack), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
-        v['pop()'].append([curr_entry, curr_exit])
-        return exit_0
-    elif 1:
-        print('It is empty')
-        exit_1 = False
-        curr_exit = [{'stack': val_prep(stack), 'exit_1': val_prep(exit_1)}, {'EXIT': 1}]
-        v['pop()'].append([curr_entry, curr_exit])
-        return exit_1
-
-def peek(stack):
-    curr_entry = {'stack': val_prep(stack)}
-    if v.get('peek()') is None:
-        v['peek()'] = []
-    if not isEmpty(stack):
-        exit_0 = stack[0]
-        curr_exit = [{'stack': val_prep(stack), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
-        v['peek()'].append([curr_entry, curr_exit])
-        return exit_0
-    elif 1:
-        exit_1 = -1
-        curr_exit = [{'stack': val_prep(stack), 'exit_1': val_prep(exit_1)}, {'EXIT': 1}]
-        v['peek()'].append([curr_entry, curr_exit])
-        return exit_1
-
-def size(stack):
-    curr_entry = {'stack': val_prep(stack)}
-    if v.get('size()') is None:
-        v['size()'] = []
-    exit_0 = len(stack)
-    curr_exit = [{'stack': val_prep(stack), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
-    v['size()'].append([curr_entry, curr_exit])
+def add(a, b):
+    curr_entry = {'a': val_prep(a), 'b': val_prep(b)}
+    if v.get('add()') is None:
+        v['add()'] = []
+    exit_0 = a + b
+    curr_exit = [{'a': val_prep(a), 'b': val_prep(b), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
+    v['add()'].append([curr_entry, curr_exit])
     return exit_0
 
-def isEmpty(stack):
-    curr_entry = {'stack': val_prep(stack)}
-    if v.get('isEmpty()') is None:
-        v['isEmpty()'] = []
-    exit_0 = size(stack) == 0
-    curr_exit = [{'stack': val_prep(stack), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
-    v['isEmpty()'].append([curr_entry, curr_exit])
+def subtract(num1, num2):
+    curr_entry = {'num1': val_prep(num1), 'num2': val_prep(num2)}
+    if v.get('subtract()') is None:
+        v['subtract()'] = []
+    exit_0 = num1 - num2
+    curr_exit = [{'num1': val_prep(num1), 'num2': val_prep(num2), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
+    v['subtract()'].append([curr_entry, curr_exit])
     return exit_0
 
-def isCap(stack):
-    curr_entry = {'stack': val_prep(stack)}
-    if v.get('isCap()') is None:
-        v['isCap()'] = []
-    exit_0 = size(stack) == 10
-    curr_exit = [{'stack': val_prep(stack), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
-    v['isCap()'].append([curr_entry, curr_exit])
+def multiply(num1, num2):
+    curr_entry = {'num1': val_prep(num1), 'num2': val_prep(num2)}
+    if v.get('multiply()') is None:
+        v['multiply()'] = []
+    exit_0 = num1 * num2
+    curr_exit = [{'num1': val_prep(num1), 'num2': val_prep(num2), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
+    v['multiply()'].append([curr_entry, curr_exit])
     return exit_0
+
+def divide(num1, num2):
+    curr_entry = {'num1': val_prep(num1), 'num2': val_prep(num2)}
+    if v.get('divide()') is None:
+        v['divide()'] = []
+    if num2 == 0:
+        exit_0 = -1
+        curr_exit = [{'num1': val_prep(num1), 'num2': val_prep(num2), 'exit_0': val_prep(exit_0)}, {'EXIT': 0}]
+        v['divide()'].append([curr_entry, curr_exit])
+        return exit_0
+    elif 1:
+        exit_1 = num1 / num2
+        curr_exit = [{'num1': val_prep(num1), 'num2': val_prep(num2), 'exit_1': val_prep(exit_1)}, {'EXIT': 1}]
+        v['divide()'].append([curr_entry, curr_exit])
+        return exit_1
 if __name__ == '__main__':
-    my_stack = [0]
-    isEmpty(my_stack)
-    for i in range(0, 20):
-        push(my_stack, i)
-    isCap(my_stack)
-    for i in range(0, 9):
-        peek(my_stack)
-        pop(my_stack)
+    x = add(2, 3)
+    y = subtract(4, 3)
+    z = multiply(2, 3)
+    c = divide(3, 3)
+    b = divide(-1, 0)
     pickle_values = open('pickled_files/pickled_values', 'wb')
     pickle.dump(v, pickle_values)
     pickle_values.close()
